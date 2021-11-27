@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite2]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test2(failed)">
+    <classes>
+      <class name="Day_017_Multiple_Suites.Google">
+        <methods>
+          <include name="Open_Mercury"/>
+        </methods>
+      </class> <!-- Day_017_Multiple_Suites.Google -->
+      <class name="Day_017_Multiple_Suites.OrangeHRMTest">
+        <methods>
+          <include name="Open_OrangeHRM"/>
+        </methods>
+      </class> <!-- Day_017_Multiple_Suites.OrangeHRMTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite2] -->
